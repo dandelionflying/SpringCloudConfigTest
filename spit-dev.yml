@@ -1,0 +1,21 @@
+server:
+  port: 8008
+spring:
+  application:
+    name: tensquare_spit
+  data:
+    mongodb:
+      host: 192.168.114.133
+      database: spitdb
+  redis:
+    host: 192.168.114.133
+jwt:
+  config:
+    key: xiaomiao
+    ttl: 3600000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:6868/eureka/
+  instance:
+    prefer-ip-address: true #跨域
