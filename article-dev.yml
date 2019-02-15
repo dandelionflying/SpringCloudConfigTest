@@ -13,7 +13,7 @@ spring:
     show-sql: true
   redis:
     host: 192.168.114.133
-  rabbit:
+  rabbitmq:
     host: 192.168.114.133
 jwt:
   config:
