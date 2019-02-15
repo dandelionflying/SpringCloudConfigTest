@@ -10,6 +10,8 @@ spring:
     jpa:
       database: MySQL
       show-sql: true
+  rabbit:
+    host: 192.168.114.133
 server:
   port: 8002
   #放在spring前会失效
