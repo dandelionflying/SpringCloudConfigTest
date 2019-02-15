@@ -8,6 +8,8 @@ spring:
       cluster-nodes: 192.168.114.133:9300
 #      repositories:
 #        enabled: true
+  rabbitmq:
+    host: 192.168.114.133
 eureka:
   client:
     service-url:
