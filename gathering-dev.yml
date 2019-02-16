@@ -3,6 +3,9 @@ server:
 spring: 
   application:  
     name: tensquare-gathering #指定服务名
+  cloud:
+    refresh:
+      refreshable: none
   datasource:  
     driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.114.133:3306/tensquare_gathering?characterEncoding=UTF8
